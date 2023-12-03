@@ -16,6 +16,10 @@ type Server struct {
 	pb.GreetServiceServer
 }
 
+/*
+2023/12/03 23:21:50 doGreet was invoked
+2023/12/03 23:21:50 Greeting: Hello HyunSang
+*/
 func main() {
 	lis, err := net.Listen("tcp", addr)
 	if err != nil {
