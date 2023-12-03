@@ -11,6 +11,8 @@ export PATH=$PATH:$GOPATH/bin
 
 ```shell
 $ brew install protoc-gen-go
+$ brew tap yoheimuta/protolint
+$ brew install protolint
 $ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 ```
